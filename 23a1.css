@@ -1,0 +1,41 @@
+body{
+    background-color:white;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: brown;
+    max-height: 700px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px 10px 0 0;
+}
+.container img{
+    min-height: 100px;
+    max-height: 250px;
+}
+.a1{
+    top: -13px;
+    margin: 0px;
+    padding: 5px;
+}
+h5{
+    margin: 0px;
+    padding: 0px;
+}
+.a3{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.aa3{
+    display: flex;
+}
+.container:hover >.box{
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+a{
+    color: brown;
+}
